@@ -22,6 +22,9 @@ img{
 :root{
     --hov-text: #ffca36;
     --hov-bg: #ffca36;
+    --over-black60: rgba(0, 0, 0, 0.6);
+    --over-black70: rgba(0, 0, 0, 0.7);
+    --over-black80: rgba(0, 0, 0, 0.8);
 }
 /* ===============================================
     Common CSS Ends
@@ -31,19 +34,69 @@ img{
 ================================================= */
 
 /* ===== Font Families ===== */
+.robo-light{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.robo-reg{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.robo-med{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.robo-bold{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
 
 /* ===== Font Size ===== */
+.fs-13{
+    font-size: 13px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-35{
+    font-size: 35px;
+}
+.fs-80{
+    font-size: 80px;
+}
 
 /* ===== Colors ===== */
 .text-brand{
     color: #ffca36;
 }
-.text-bg{
+.text-35{
+    color: #353535;
+}
+.text-5{
+    color: #555555;
+}
+.text-d{
+    color: #dddddd;
+}
+.bg-brand{
     background: #ffca36;
 }
-.robo-reg{
-    font-family: 'roboto-regular';
+.bg-35{
+    background: #353535;
 }
+.bg-5{
+    background: #555555;
+}
+
 /* ===============================================
             Typography Ends
 ================================================= */
