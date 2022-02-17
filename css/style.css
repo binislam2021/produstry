@@ -19,6 +19,10 @@ img{
     -ms-transition: all linear 0.4s;
     -o-transition: all linear 0.4s;
 }
+:root{
+    --hov-text: #ffca36;
+    --hov-bg: #ffca36;
+}
 /* ===============================================
     Common CSS Ends
 ================================================= */
@@ -31,7 +35,15 @@ img{
 /* ===== Font Size ===== */
 
 /* ===== Colors ===== */
-
+.text-brand{
+    color: #ffca36;
+}
+.text-bg{
+    background: #ffca36;
+}
+.robo-reg{
+    font-family: 'roboto-regular';
+}
 /* ===============================================
             Typography Ends
 ================================================= */
