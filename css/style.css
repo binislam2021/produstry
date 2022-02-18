@@ -123,105 +123,102 @@ header i{
 header p{
     line-height: 40px;
 }
-header ul{
-    padding-right: 0;
+header .welcome{
+    transform: skewX(-35deg);
+    -webkit-transform: skewX(-35deg);
+    -moz-transform: skewX(-35deg);
+    -ms-transform: skewX(-35deg);
+    -o-transform: skewX(-35deg);
+}
+header .welcome p{
+    transform: skewX(35deg);
+    -webkit-transform: skewX(35deg);
+    -moz-transform: skewX(35deg);
+    -ms-transform: skewX(35deg);
+    -o-transform: skewX(35deg);
 }
 header ul li{
     padding: 0 20px;
-    position: relative;
+    width: 45px;
 }
-header ul li:last-of-type{
-    padding-right: 8px;
-}
-/* header ul li:last-of-type{
-    padding-right: 0;
-} */
 header li::before {
     content: '';
-    width: 62%;
-    height: 1px;
+    width: 1px;
+    height: 0;
     background: var(--bg-brand);
     position: absolute;
-    top: 8px;
-    left: 10px;
-    /* left: 9px; */
+    top: 5px;
+    left: 20px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
 }
-header li::after{
+header li:hover::before{
+    height: 31px;
+}
+header li::after {
     content: '';
-    width: 62%;
-    height: 1px;
+    width: 1px;
+    height: 0;
     background: var(--bg-brand);
     position: absolute;
-    bottom: 6px;
-    left: 10px;
+    bottom: 4px;
+    right: 4px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
 }
-
-header li:last-of-type::before {
-    content: '';
-    width: 78%;
-    height: 1px;
-    background: var(--bg-brand);
-    position: absolute;
-    top: 8px;
-    left: 10px;
-    /* left: 9px; */
+header li:hover::after{
+    height: 31px;
 }
-header li:last-of-type::after{
-    content: '';
-    width: 76%;
-    height: 1px;
-    background: var(--bg-brand);
-    position: absolute;
-    bottom: 6px;
-    right: 0px;
-}
-
-
 header li a{
-    line-height: 40px;
+    line-height: 40px;;
+    
 }
 header li a:hover{
     color: var(--link-hov);
 }
-
-
 header li a::before {
     content: '';
-    width: 1px;
-    height: 36px;
+    width: 0;
+    height: 1px;
     background: var(--bg-brand);
     position: absolute;
-    top: 3px;
-    left: 15px;
+    top: 9px;
+    left: 16px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+header li:hover a::before{
+    width: 29px;
 }
 header li a::after {
     content: '';
-    width: 1px;
-    height: 36px;
+    width: 0;
+    height: 1px;
     background: var(--bg-brand);
     position: absolute;
-    top: 3px;
-    right: 15px;
+    bottom: 8px;
+    right: 0;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
 }
-
-
-header li:last-of-type a::after {
-    content: '';
-    width: 1px;
-    height: 36px;
-    background: var(--bg-brand);
-    position: absolute;
-    top: 3px;
-    right: 4px;
+header li:hover a::after{
+    width: 29px;
 }
-header li:last-of-type a::after {
-    content: '';
-    width: 1px;
-    height: 36px;
-    background: var(--bg-brand);
-    position: absolute;
-    top: 3px;
-    right: 4px;
+header li i{
+    width: 20px;
+    height: 20px;
 }
 /* ===============================================
         Header Starts
