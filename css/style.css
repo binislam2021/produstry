@@ -92,7 +92,7 @@ img{
     color: #ffca36;
 }
 .text-35{
-    color: #353535;
+    color: #353535 !important;
 }
 .text-5{
     color: #555555;
@@ -116,6 +116,9 @@ img{
 }
 /* ===============================================
         Typography Ends
+================================================= */
+/* ===============================================
+        Header Starts
 ================================================= */
 header i{
     padding-top: 14px;
@@ -221,16 +224,86 @@ header li i{
     height: 20px;
 }
 /* ===============================================
-        Header Starts
-================================================= */
-
-/* ===============================================
         Header Ends
 ================================================= */
-
 /* ===============================================
         Navbar Starts
 ================================================= */
+nav li::before {
+    content: '';
+    width: 1px;
+    height: 108%;
+    background: var(--bg-brand);
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+nav li:hover::before{
+    height: 100%;
+}
+nav li::after {
+    content: '';
+    width: 1px;
+    height: 105%;
+    background: var(--bg-brand);
+    position: absolute;
+    bottom: -2px;
+    right: 0px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+nav li:hover::after{
+    height: 100%;
+}
+nav li a{
+    line-height: 40px;;
+    
+}
+nav li a:hover{
+    color: var(--link-hov);
+}
+nav li a::before {
+    content: '';
+    width: 115%;
+    height: 1px;
+    background: var(--bg-brand);
+    position: absolute;
+    top: 4px;
+    left: -7px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+nav li:hover a::before{
+    width: 100%;
+}
+nav li a::after {
+    content: '';
+    width: 120%;
+    height: 1px;
+    background: var(--bg-brand);
+    position: absolute;
+    bottom: 4px;
+    right: -6px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+nav li:hover a::after{
+    width: 100%;
+}
 /* ===============================================
         Navbar Ends
 ================================================= */
