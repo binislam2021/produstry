@@ -1,1 +1,1 @@
-https://binislam2021.github.io/produstr
+https://binislam2021.github.io/produstry
