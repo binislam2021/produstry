@@ -1,13 +1,23 @@
-// $(document).ready(function(){
-//     'use strict';
+$(document).ready(function(){
+    'use strict';
 
 //     // Slick Slider on the Banner
-//     $('.banner-slider').slick({
-//         arrows: false,
-//         dots: true,
-//         // autoplay: true,
-//         pauseOnHover: false,
-//     });
+    $('.banner-slider').slick({
+        autoplay: true,
+        pauseOnHover: false,
+        prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
+        nextArrow: '<i class="fa-solid fa-chevron-right right"></i>'
+    });
+
+    // AOS on the Portfolio
+    AOS.init();
+
+    // Counter Up on the Funfact
+    $('.counter').counterUp({
+        delay: 1,
+        time: 500
+    });
+
 
 //     // VenoBox on the About
 //     new VenoBox({
@@ -89,4 +99,4 @@
 //         ],
 //     });
     
-// });
+});
