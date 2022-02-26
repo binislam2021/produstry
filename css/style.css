@@ -627,13 +627,24 @@ nav .nav-link:hover::after{
 /* ===============================================
         Portfolio Ends
 ================================================= */
-
-
 /* ===============================================
-        Team Starts
+        Blog Starts
 ================================================= */
+#blog p.card-text{
+    line-height: 25px;
+}
+#blog .btn{
+    border: 2px solid var(--brand);
+    padding: 10px 24px !important;
+}
+#blog .btn:hover{
+    background: var(--brand);
+}
+#blog .btn:focus{
+    box-shadow: 0 0 0 0 !important;
+}
 /* ===============================================
-        Team Ends
+        Blog Ends
 ================================================= */
 
 
