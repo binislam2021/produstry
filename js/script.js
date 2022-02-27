@@ -21,6 +21,8 @@ $(document).ready(function(){
     // Slick Slider on the Blog
     $('.blog-slider').slick({
         slidesToShow: 3,
+        centerMode: true,
+        centerPadding: '0px',
         prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
         nextArrow: '<i class="fa-solid fa-chevron-right right"></i>'
     });
