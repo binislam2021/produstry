@@ -18,6 +18,14 @@ $(document).ready(function(){
         time: 500
     });
 
+    // VenoBox on the Blog
+    new VenoBox({
+        selector: '.blog-link',
+        share: true,
+        spinner: 'wave',
+        spinColor: '#ffca36',
+    });
+
     // Slick Slider on the Blog
     $('.blog-slider').slick({
         slidesToShow: 3,
