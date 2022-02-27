@@ -18,6 +18,13 @@ $(document).ready(function(){
         time: 500
     });
 
+    // Slick Slider on the Blog
+    $('.blog-slider').slick({
+        slidesToShow: 3,
+        prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
+        nextArrow: '<i class="fa-solid fa-chevron-right right"></i>'
+    });
+
 
 //     // VenoBox on the About
 //     new VenoBox({
