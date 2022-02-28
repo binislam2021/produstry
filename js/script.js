@@ -30,6 +30,8 @@ $(document).ready(function(){
     $('.blog-slider').slick({
         slidesToShow: 3,
         centerMode: true,
+        autoplay: true,
+        pauseOnHover: false,
         centerPadding: '0px',
         prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
         nextArrow: '<i class="fa-solid fa-chevron-right right"></i>'
