@@ -34,8 +34,18 @@ $(document).ready(function(){
         pauseOnHover: false,
         centerPadding: '0px',
         prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
-        nextArrow: '<i class="fa-solid fa-chevron-right right"></i>'
+        nextArrow: '<i class="fa-solid fa-chevron-right right"></i>',
     });
+
+    // Slick Slider on the Testimonial
+    // $('.text-slider').slick({
+    //     arrows: false
+    // });
+
+    // $('.image-slider').slick({
+    //     // slidesToShow: 3,
+    //     // arrows: false,
+    // });
 
 
 //     // VenoBox on the About
