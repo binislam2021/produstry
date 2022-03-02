@@ -904,18 +904,6 @@ nav .nav-link:hover::after{
     -o-transform: scale(0.8);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Slick Slider CSS */
 #testimonial .slick-slider{
     position: relative;
@@ -1062,21 +1050,6 @@ nav .nav-link:hover::after{
 #testimonial .slick-slider .left:hover::after{
     height: calc(100% + 20px);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Slicker Center CSS */
 #testimonial .slick-center img{
