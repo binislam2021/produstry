@@ -38,17 +38,21 @@ $(document).ready(function(){
     });
 
     // Slick Slider on the Testimonial
-    $('#testimonial .text-slider').slick({
-        arrows: false,
+    $('.text-slider').slick({
+        // arrows: false,
+        // autoplay: true,
+        pauseOnHover: false,
+        asNavFor: '.image-slider',
     });
 
-    $('#testimonial .image-slider').slick({
+    $('.image-slider').slick({
         slidesToShow: 3,
         arrows: false,
         centerMode: true,
         centerPadding: '0px',
-        autoplay: true,
+        // autoplay: true,
         pauseOnHover: false,
+        asNavFor: '.text-slider',
     });
 
 

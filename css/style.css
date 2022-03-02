@@ -870,19 +870,19 @@ nav .nav-link:hover::after{
         Testimonial Starts
 ================================================= */
 /* Text Slider */
-#testimonial .text-slider p:first-of-type{
+#testimonial .text-slider p{
     padding: 0 250px;
-    /* line-height: 25px; */
+    line-height: 22px;
 }
 
 /* Image Slider */
 #testimonial .image-slider{
-    width: 30%;
+    width: 20%;
     margin: 0 auto;
 }
 #testimonial .image-slider img{
     width: 70px;
-    padding: 3px;
+    padding: 5px;
     border: 1px solid transparent;
     transform: scale(.95);
     -webkit-transform: scale(.95);
@@ -890,12 +890,12 @@ nav .nav-link:hover::after{
     -ms-transform: scale(.95);
     -o-transform: scale(.95);
 }
-#testimonial .slider-item{
+#testimonial .image-slider .slider-item{
     width: 70px;
     height: 70px;
 }
 #testimonial .item-overlay {
-    width: 64%;
+    width: 100%;
     background: rgba(255, 255, 255, 0.5);
     transform: scale(0.8);
     -webkit-transform: scale(0.8);
@@ -904,7 +904,7 @@ nav .nav-link:hover::after{
     -o-transform: scale(0.8);
 }
 #testimonial .slick-center img{
-    padding: 3px;
+    padding: 5px;
     border: 1px solid var(--brand);
     transform: scale(1);
     -webkit-transform: scale(1);
