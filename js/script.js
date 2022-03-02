@@ -38,14 +38,18 @@ $(document).ready(function(){
     });
 
     // Slick Slider on the Testimonial
-    // $('.text-slider').slick({
-    //     arrows: false
-    // });
+    $('#testimonial .text-slider').slick({
+        arrows: false,
+    });
 
-    // $('.image-slider').slick({
-    //     // slidesToShow: 3,
-    //     // arrows: false,
-    // });
+    $('#testimonial .image-slider').slick({
+        slidesToShow: 3,
+        arrows: false,
+        centerMode: true,
+        centerPadding: '0px',
+        autoplay: true,
+        pauseOnHover: false,
+    });
 
 
 //     // VenoBox on the About
