@@ -39,10 +39,11 @@ $(document).ready(function(){
 
     // Slick Slider on the Testimonial
     $('.text-slider').slick({
-        // arrows: false,
-        // autoplay: true,
+        autoplay: true,
         pauseOnHover: false,
         asNavFor: '.image-slider',
+        prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
+        nextArrow: '<i class="fa-solid fa-chevron-right right"></i>',
     });
 
     $('.image-slider').slick({
@@ -50,7 +51,7 @@ $(document).ready(function(){
         arrows: false,
         centerMode: true,
         centerPadding: '0px',
-        // autoplay: true,
+        autoplay: true,
         pauseOnHover: false,
         asNavFor: '.text-slider',
     });
