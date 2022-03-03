@@ -56,6 +56,15 @@ $(document).ready(function(){
         asNavFor: '.text-slider',
     });
 
+    // Slick Slider on the Brand Part
+    $('.brand-slider').slick({
+        slidesToShow: 5,
+        centerMode: true,
+        centerPadding: '0px',
+        prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
+        nextArrow: '<i class="fa-solid fa-chevron-right right"></i>',
+    });
+
 
 //     // VenoBox on the About
 //     new VenoBox({

@@ -1067,19 +1067,169 @@ nav .nav-link:hover::after{
 /* ===============================================
         Testimonial Ends
 ================================================= */
-
-
-/* ===============================================
-        Funfact Starts
-================================================= */
-/* ===============================================
-        Funfact Ends
-================================================= */
-
-
 /* ===============================================
         Brand Starts
 ================================================= */
+#brand img{
+    transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    -o-transform: scale(0.85);
+}
+#brand .slick-slider{
+    position: relative;
+}
+#brand .slick-slider .left{
+    position: absolute;
+    z-index: 3;
+    left: 30px;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+#brand .slick-slider .right{
+    position: absolute;
+    font-size: 42px;
+    right: -6%;
+    top: -3%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    text-align: center;
+    line-height: 60px;
+}
+#brand .slick-slider .right::before{
+    content: "\f054";
+    width: 100%;
+    height: 100%;
+    color: var(--colr-35);
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    position: fixed;
+    top: 145%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#brand .slick-slider .right:hover::before{
+    width: calc(100% + 20px);
+    border-top: 1px solid var(--brand);
+    border-bottom: 1px solid var(--brand);
+    color: var(--brand);
+}
+#brand .slick-slider .right::after{
+    content: "";
+    width: 100%;
+    height: 0;
+    border-left: 1px solid var(--brand);
+    border-right: 1px solid var(--brand);
+    position: absolute;
+    top: 145%;
+    right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#brand .slick-slider .right:hover::after{
+    height: calc(100% + 20px);
+}
+#brand .slick-slider .left{
+    position: absolute;
+    font-size: 42px;
+    right: 30px !important;
+    top: 3%;
+    width: 60px;
+    height: 60px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    text-align: center;
+    line-height: 60px;
+}
+#brand .slick-slider .left::before {
+    content: "\f053";
+    width: 100%;
+    height: 100%;
+    color: var(--colr-35);
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    position: fixed;
+    top: 87px;
+    left: -60px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#brand .slick-slider .left:hover::before{
+    width: calc(100% + 20px);
+    border-top: 1px solid var(--brand);
+    border-bottom: 1px solid var(--brand);
+    color: var(--brand);
+}
+#brand .slick-slider .left::after {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-left: 1px solid var(--brand);
+    border-right: 1px solid var(--brand);
+    position: absolute;
+    top: 145%;
+    right: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#brand .slick-slider .left:hover::after{
+    height: calc(100% + 20px);
+}
+#brand .slick-center{
+    transform: scale(0.87);
+    -webkit-transform: scale(0.87);
+    -moz-transform: scale(0.87);
+    -ms-transform: scale(0.87);
+    -o-transform: scale(0.87);
+    box-shadow: 0 0 10px 0px;
+}
 /* ===============================================
         Brand Ends
 ================================================= */
