@@ -1233,11 +1233,19 @@ nav .nav-link:hover::after{
 /* ===============================================
         Brand Ends
 ================================================= */
-
-
 /* ===============================================
         Footer Starts
 ================================================= */
+footer .logo-part{
+    padding-right: 27px;
+}
+footer .logo-part i{
+    line-height: 35px;
+    width: 35px;
+}
+footer .logo-part i:hover{
+    background: var(--brand) !important;
+}
 /* ===============================================
         Footer Ends
 ================================================= */
