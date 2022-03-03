@@ -59,6 +59,8 @@ $(document).ready(function(){
     // Slick Slider on the Brand Part
     $('.brand-slider').slick({
         slidesToShow: 5,
+        autoplay: true,
+        pauseOnHover: false,
         centerMode: true,
         centerPadding: '0px',
         prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
