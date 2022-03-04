@@ -67,6 +67,11 @@ $(document).ready(function(){
         nextArrow: '<i class="fa-solid fa-chevron-right right"></i>',
     });
 
+    // Map-popup in Footer Main using VenoBox
+    new VenoBox({
+        selector: '.map-popup',
+    });
+
 
 //     // VenoBox on the About
 //     new VenoBox({

@@ -88,7 +88,7 @@ img{
     color: #555555;
 }
 .text-d{
-    color: var(--colr-d);
+    color: var(--colr-d) !important;
 }
 .bg-brand{
     background: var(--brand);
@@ -1245,6 +1245,48 @@ footer .logo-part i{
 }
 footer .logo-part i:hover{
     background: var(--brand) !important;
+}
+
+/* Contact Part */
+footer .contact-part .address a{
+    left: 48px;
+}
+footer .contact-part .address i{
+    top: 5px;
+    left: -48px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+footer .contact-part i{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+footer .contact-part .last-i{
+    margin-top: 12px;
+}
+footer .contact-part .link1{
+    top: -5px;
+}
+footer .contact-part .link2{
+    top: 20px;
+}
+footer .contact-part .link3{
+    top: 5px;
+}
+footer .contact-part .link4{
+    top: 30px;
+}
+
+/* Link Part */
+footer .link-part li{
+}
+footer .link-part li:last-of-type{
+    /* padding-bottom: 0; */
+}
+footer .link-part a:hover{
+    color: var(--brand) !important;
 }
 /* ===============================================
         Footer Ends
