@@ -1236,6 +1236,9 @@ nav .nav-link:hover::after{
 /* ===============================================
         Footer Starts
 ================================================= */
+footer .footer-main{
+    padding: 60px 0;
+}
 footer .logo-part{
     padding-right: 27px;
 }
@@ -1286,7 +1289,9 @@ footer .link-part a:hover{
 }
 
 /* Footer Copyright Part */
-
+footer .footer-copyright p{
+    line-height: 54px;
+}
 /* ===============================================
         Footer Ends
 ================================================= */
