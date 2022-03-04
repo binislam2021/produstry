@@ -1280,14 +1280,13 @@ footer .contact-part .link4{
 }
 
 /* Link Part */
-footer .link-part li{
-}
-footer .link-part li:last-of-type{
-    /* padding-bottom: 0; */
-}
 footer .link-part a:hover{
     color: var(--brand) !important;
+    padding-left: 10px;
 }
+
+/* Footer Copyright Part */
+
 /* ===============================================
         Footer Ends
 ================================================= */
