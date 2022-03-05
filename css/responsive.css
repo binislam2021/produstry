@@ -2,377 +2,40 @@
     Extra Samll Device Starts
 ================================== */
 @media (max-width: 575px){
-
-    /* Navbar Starts (xsm device) */
-    .navbar{
-        background: rgba(226, 62, 56, 0.5);
-        top: 0;
-    }
-    .navbar .navbar-brand{
-        position: static;
-        padding: 0 !important;
-        transform: skewX(0deg);
-        -webkit-transform: skewX(0deg);
-        -moz-transform: skewX(0deg);
-        -ms-transform: skewX(0deg);
-        -o-transform: skewX(0deg);
-    }
-    .navbar .navbar-brand img{
-        transform: skewX(0deg);
-        -webkit-transform: skewX(0deg);
-        -moz-transform: skewX(0deg);
-        -ms-transform: skewX(0deg);
-        -o-transform: skewX(0deg);
-    }
-    .navbar-light .navbar-toggler{
-        border-color: #fff !important;
-    }
-    .navbar-toggler span{
-        color: #fff;
-    }
-    .navbar-nav{
-        background: rgba(255, 255, 255, 0.5);
-    }
-    .navbar-nav .nav-item .nav-link{
-        color: #353535 !important;
-        text-align: center;
-    }
-    .navbar .navbar-nav .nav-item .nav-link::before{
-        height: 100%;
-        width: 0%;
-    }
-    .navbar .navbar-nav .nav-item .nav-link:hover::before{
-        width: 100%;
-    }
-    .navbar .navbar-nav .nav-item .nav-link::after{
-        width: 100%;
-    }
-
-    /* Banner Starts (xsm device) */
-    #banner .banner-item {
-        padding-top: 220px;
-        padding-bottom: 75px;
-    }
-    #banner .banner-item h3{
-        font-size: 24px;
-    }
-    #banner .banner-item h2{
-        font-size: 48px;
-    }
-    #banner .banner-text{
-        text-align: center !important;
-    }
-    #banner .bg1 h3::before,
-    #banner .bg1 h3::after,
-    #banner .bg1 h2::before,
-    #banner .bg1 h2::after,
-    #banner .bg1 p::before,
-    #banner .bg1 p::after
-    {
-        display: none;
-    }
-    #banner .bg1 p{
-        padding: 0;
-    }
-    
-    /* About Starts (xsm device) */
-    #about {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    #about .abt-text p {
-        padding: 0;
-    }
-    #about .abt-video{
-        margin-top: 20px;
-    } 
-
-    /* Team Starts (xsm device) */
-    #team {
-        padding-top: 60px;
-        padding-bottom: 18px;
-    }
-
-    /* Funfact Starts (xsm device) */
-    #funfact .fun-item{
-        text-align: center;
-        margin-bottom: 15px;
-    }
-
-    /* Routine Starts (xsm device) */
-    #routine .nav-tabs{
-        flex-wrap: wrap;
-    }
-    #routine .nav-tabs .nav-item {
-        width: 33.33%;
-        margin-bottom: 5px;
-    }
-    #routine .routine-holder ul li{
-        width: 100%;
-    }
-
-    /* Brand Starts (xsm device) */
-    #brand{
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
-    /* Footer Starts (xsm device) */
-    #footer .footer-logo img {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    #footer .footer-main h4{
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    #footer .footer-main .opening-hours {
-        padding-left: 36px !important;
-    }
 }
 /* ==================================
     Extra Samll Device Ends
 =================================*/
-
-
 /* ==================================
     Small Device Starts
 ================================== */
 @media (min-width: 576px) and (max-width: 767px){
-
-    /* Navbar Starts (sm device) */
-    .navbar{
-        background: rgba(53, 53, 53, 0.6);
-        top: 0;
-    }
-    .navbar .navbar-brand{
-        position: static;
-        padding: 0 !important;
-        transform: skewX(0deg);
-        -webkit-transform: skewX(0deg);
-        -moz-transform: skewX(0deg);
-        -ms-transform: skewX(0deg);
-        -o-transform: skewX(0deg);
-    }
-    .navbar .navbar-brand img{
-        transform: skewX(0deg);
-        -webkit-transform: skewX(0deg);
-        -moz-transform: skewX(0deg);
-        -ms-transform: skewX(0deg);
-        -o-transform: skewX(0deg);
-    }
-    .navbar-light .navbar-toggler{
-        border-color: #fff !important;
-    }
-    .navbar-toggler span{
-        color: #fff;
-    }
-    .navbar-nav{
-        background: rgba(255, 255, 255, 0.5);
-    }
-    .navbar-nav .nav-item .nav-link{
-        color: #353535 !important;
-        text-align: center;
-    }
-    .navbar .navbar-nav .nav-item .nav-link::before{
-        height: 100%;
-        width: 0%;
-    }
-    .navbar .navbar-nav .nav-item .nav-link:hover::before{
-        width: 100%;
-    }
-    .navbar .navbar-nav .nav-item .nav-link::after{
-        width: 100%;
-    }
-    
-    /* Banner Starts (sm device) */
-    #banner .bg1 h3::before,
-    #banner .bg1 h3::after,
-    #banner .bg1 h2::before,
-    #banner .bg1 h2::after,
-    #banner .bg1 p::before,
-    #banner .bg1 p::after
-    {
-        display: none;
-    }
-    #banner .bg1 p {
-        padding: 0;
-    }
-
-    /* About Starts (sm device) */
-    #about {
-        padding-top: 70px;
-	padding-bottom: 70px;
-    }
-    #about .abt-text p {
-        padding: 0;
-    }
-    #about .abt-video{
-        margin-top: 20px;
-    }
-
-    /* Team Starts (sm device) */
-    #team {
-        padding-top: 70px;
-        padding-bottom: 30px;
-    }
-
-    /* Membership Starts (sm device) */
-    #membership {
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-
-    /* Funfact Starts (sm device) */
-    #funfact{
-        position: relative;
-    }
-    #funfact .fun-item{
-        margin-bottom: 20px;
-    }
-
-    /* Routine Starts (sm device) */
-    #routine .routine-holder ul li{
-        width: 50%;
-    }
-
-    /* Footer Starts (sm device) */
-    #footer .footer-item .opening-hours{
-        margin-bottom: 30px !important;
-    }
 }
 /* ==================================
     Small Device Ends
 =================================*/
-
-
 /* ==================================
     Medium Device Starts
 ================================== */
 @media (min-width: 768px) and (max-width: 991px){
-
-    /* Navbar Starts (md device) */
-    /* .navbar{
-        background: rgba(53, 53, 53, 0.6);
-        top: 0;
-    }
-    .navbar .navbar-brand{
-        position: static;
-        padding: 0 !important;
-        transform: skewX(0deg);
-        -webkit-transform: skewX(0deg);
-        -moz-transform: skewX(0deg);
-        -ms-transform: skewX(0deg);
-        -o-transform: skewX(0deg);
-    }
-    .navbar .navbar-brand img{
-        transform: skewX(0deg);
-        -webkit-transform: skewX(0deg);
-        -moz-transform: skewX(0deg);
-        -ms-transform: skewX(0deg);
-        -o-transform: skewX(0deg);
-    }
-    .navbar-light .navbar-toggler{
-        border-color: #fff !important;
-    }
-    .navbar-toggler span{
-        color: #fff;
-    }
-    .navbar-nav{
-        background: rgba(255, 255, 255, 0.5);
-    }
-    .navbar-nav .nav-item .nav-link{
-        color: #353535 !important;
-        text-align: center;
-    }
-    .navbar .navbar-nav .nav-item .nav-link::before{
-        height: 100%;
-        width: 0%;
-    }
-    .navbar .navbar-nav .nav-item .nav-link:hover::before{
-        width: 100%;
-    }
-    .navbar .navbar-nav .nav-item .nav-link::after{
-        width: 100%;
-    } */
-
-    /* Banner Starts (md device) */
-    #banner p {
-        padding: 0 130px;
-    }
-    #banner .bg1 p {
-        padding: 0 130px;
-    }
-    #banner .bg1 h3::before{
-        left: 75px;
-    }
-    #banner .bg1 h3::after{
-        width: 135px;
-        right: 52px;
-        top: 23px;
-    }
-    #banner .bg1 h2::before{
-        left: 75px;
-    }
-    #banner .bg1 h2::after{
-        right: 49px;
-        top: -23px;
-    }
-    #banner .bg1 p::before {
-        width: 58px;
-        left: 75px;
-        bottom: -28px;
-    }
-    #banner .bg1 p::after {
-        width: 53px;
-        right: 49px;
-        bottom: -28px;
-    }
-
-    /* About Starts (md device) */
-    #about .abt-text p {
-        padding: 0;
-    }
-    #about .abt-video{
-        margin-top: 20px;
-    }
-
-    /* Membership Starts (md device) */
-    #membership .member-item h3 {
-        line-height: 95px;
-        font-size: 42px;
-    }
-    #membership .member-item h3 span{
-        font-size: 24px;
-    }
-    #membership .py-5 {
-        padding-top: 2rem !important;
-        padding-bottom: 2rem !important;
-    }
-    #membership .pb-3 {
-        padding-bottom: 0.5rem !important;
-    }
-
-    /* Routine Starts */
-    #routine .routine-holder ul li{
-        width: 25%;
-    }
-    #routine .routine-holder ul li:nth-child(9),
-    #routine .routine-holder ul li:last-child{
-        width: 50%;
-    }
-    #routine .routine-holder ul li p:last-of-type{
+    header address a{
         font-size: 13px;
-    }  
-}
-@media (min-width: 792px) and (max-width: 1199px){
-    #footer .footer-main .opening-hours li span {
-        width: 85px;
     }
 }
 /* ==================================
     Medium Device Ends
 =================================*/
+/* ==================================
+    Large Device Starts
+================================== */
+@media (min-width: 792px) and (max-width: 1199px){
+}
+/* ==================================
+    Large Device Ends
+=================================*/
+
+    
+
 
 
 
