@@ -21,6 +21,9 @@
     header address a{
         font-size: 13px;
     }
+    #banner p{
+        padding: 0 135px;
+    }
 }
 /* ==================================
     Medium Device Ends
