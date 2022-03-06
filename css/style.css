@@ -240,6 +240,9 @@ nav .nav-item:hover{
 nav .nav-link:hover{
     color: var(--brand) !important;
 }
+nav .nav-link.active{
+    color: var(--brand) !important;
+}
 nav .nav-link::before{
     content: "";
     width: calc(100% + 10px);
@@ -261,6 +264,13 @@ nav .nav-link::before{
     -o-transition: all linear 0.4s;
 }
 nav .nav-link:hover::before{
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+}
+nav .nav-link.active::before{
     transform: scale(1,1);
     -webkit-transform: scale(1,1);
     -moz-transform: scale(1,1);
@@ -293,6 +303,16 @@ nav .nav-link:hover::after{
     -moz-transform: scale(1,1);
     -ms-transform: scale(1,1);
     -o-transform: scale(1,1);
+}
+nav .nav-link.active::after{
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+}
+nav .nav-item i{
+    cursor: pointer;
 }
 /* ===============================================
         Navbar Ends
