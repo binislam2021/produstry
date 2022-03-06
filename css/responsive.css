@@ -18,12 +18,25 @@
     Medium Device Starts
 ================================== */
 @media (min-width: 768px) and (max-width: 991px){
+
+    /* Header Part */
     header address a{
         font-size: 13px;
+    }
+
+    /* Banner Part */
+    #banner .banner-item{
+        padding: 100px 0;
     }
     #banner p{
         padding: 0 135px;
     }
+
+    /* Service Part */
+    .section-head p{
+        padding: 0 160px;
+    }
+
 }
 /* ==================================
     Medium Device Ends

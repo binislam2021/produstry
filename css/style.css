@@ -367,6 +367,9 @@ nav .nav-item i{
     border-color: var(--brand);
     color: var(--colr-35) !important;
 }
+#banner .btn:focus{
+    box-shadow: none;
+}
 #banner p{
     padding-right: 555px;
     line-height: 24px;
