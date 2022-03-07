@@ -19,6 +19,9 @@ img{
     -ms-transition: all linear 0.4s;
     -o-transition: all linear 0.4s;
 }
+.btn:focus{
+    box-shadow: 0 0 0 0 !important;
+}
 :root{
     --white: #fff;
     --brand: #ffca36;
@@ -367,9 +370,6 @@ nav .nav-item i{
     border-color: var(--brand);
     color: var(--colr-35) !important;
 }
-#banner .btn:focus{
-    box-shadow: none;
-}
 #banner p{
     padding-right: 555px;
     line-height: 24px;
@@ -704,9 +704,6 @@ nav .nav-item i{
 #blog .btn:hover{
     border: 2px solid var(--brand);
     background: none;
-}
-#blog .btn:focus{
-    box-shadow: 0 0 0 0 !important;
 }
 
 /* Slick Slider CSS */
