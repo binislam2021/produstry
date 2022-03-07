@@ -36,6 +36,22 @@
     .section-head p{
         padding: 0 160px;
     }
+    #service .service-item p{
+        text-align: justify;
+    }
+
+    /* About Part */
+    #about .bg-image{
+        width: 28%;
+    }
+    #about p{
+        text-align: justify;
+        padding-right: 0 !important;
+    }
+    #about img{
+        width: 100%;
+        margin-left: 60px;
+    }
 
 }
 /* ==================================

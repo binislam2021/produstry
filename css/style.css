@@ -611,13 +611,14 @@ nav .nav-item i{
     border-bottom: 5px solid var(--brand);
 }
 #about p{
-    padding-right: 65px;
+    padding-right: 65px !important;
 }
 #about .btn{
     border: 2px solid var(--brand);
 }
 #about .btn:hover{
     background: var(--brand);
+    border-color: var(--brand) !important;
     color: var(--colr-35);
 }
 /* ===============================================
