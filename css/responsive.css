@@ -74,6 +74,25 @@
         height: 60px;
     }
 
+    /* Testimonial */
+    #testimonial p{
+        padding: 0px 140px !important;
+        text-align: justify;
+    }
+    #testimonial .image-slider{
+        width: 40%;
+        margin: 0 auto;
+    }
+    #testimonial .item-overlay{
+        width: 100%;
+        height: 100%;
+        inset: 0 !important;
+    }
+    #testimonial .image-slider .slider-item{
+        width: 70px;
+        height: 70px;
+    }
+
 }
 /* ==================================
     Medium Device Ends
