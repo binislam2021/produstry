@@ -164,6 +164,11 @@
         height: calc(100% + 10px);
     }
 
+    /* Footer Part */
+    footer .footer-main{
+        padding: 36px 0;
+    }
+
 }
 /* ==================================
     Medium Device Ends
