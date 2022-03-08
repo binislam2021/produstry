@@ -53,6 +53,10 @@
         margin-left: 60px;
     }
 
+    #funfact .fun-bg{
+        height: 160px;
+    }
+
 }
 /* ==================================
     Medium Device Ends
