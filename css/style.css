@@ -641,7 +641,7 @@ nav .nav-item i{
     -webkit-transform: rotateY(-90deg);
     -moz-transform: rotateY(-90deg);
     -ms-transform: rotateY(-90deg);
-    -o-transform: rotateY(-90deg);
+    -o-transform: rotateY(-90deg); 
     opacity: 0;
 }
 #portfolio .port-image:hover .port-overlay{

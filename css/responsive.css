@@ -53,8 +53,25 @@
         margin-left: 60px;
     }
 
+    /* Funfact */
     #funfact .fun-bg{
         height: 160px;
+    }
+
+    /* Blog */
+    #blog p{
+        text-align: justify;
+    }
+    #blog .slick-slider .left{
+        left: 82px;
+        top: 55%;
+    }
+    #blog .slick-slider .right{
+        font-size: 42px;
+        right: -1%;
+        top: 55%;
+        width: 60px;
+        height: 60px;
     }
 
 }
