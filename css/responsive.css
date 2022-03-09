@@ -13,6 +13,13 @@
     header address{
         line-height: 36px;
     }
+    nav .navbar-nav{
+        background: var(--colr-35);
+    }
+    nav .nav-link{
+        color: var(--white) !important;
+        padding: 8px 170px !important;
+    }
 }
 /* ==================================
     Small Device Ends
