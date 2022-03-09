@@ -11,12 +11,12 @@
 ================================== */
 @media (min-width: 576px) and (max-width: 767px){
 
-    /* Header Part */
+    /* Header Small Part */
     header address{
         line-height: 36px;
     }
 
-    /* Navbar Part */
+    /* Navbar Small Part */
     nav .navbar-nav{
         background: var(--colr-35);
     }
@@ -25,13 +25,21 @@
         padding: 8px 170px !important;
     }
 
-    /* Banner part */
+    /* Banner Small part */
     #banner .banner-item{
         padding: 90px 0;
     }
     #banner p{
         padding: 0 100px;
         text-align: justify;
+    }
+
+    /* Service Small Part */
+    .section-head p{
+        padding: 0 70px;
+    }
+    #service .service-item{
+        padding: 0 70px;
     }
 }
 /* ==================================
