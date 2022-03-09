@@ -11,12 +11,12 @@
 ================================== */
 @media (min-width: 576px) and (max-width: 767px){
 
-    /* Header Small Part */
+    /* Header Small */
     header address{
         line-height: 36px;
     }
 
-    /* Navbar Small Part */
+    /* Navbar Small */
     nav .navbar-nav{
         background: var(--colr-35);
     }
@@ -25,7 +25,7 @@
         padding: 8px 170px !important;
     }
 
-    /* Banner Small part */
+    /* Banner Small */
     #banner .banner-item{
         padding: 90px 0;
     }
@@ -34,12 +34,30 @@
         text-align: justify;
     }
 
-    /* Service Small Part */
+    /* Service Small */
     .section-head p{
         padding: 0 70px;
     }
     #service .service-item{
         padding: 0 70px;
+    }
+
+    /* About Small */
+    #about .bg-image, #about .bg-image::after{
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    #about p{
+        text-align: justify;
+        padding-left: 55px;
+    }
+
+    /* Portfolio Small */
+    #portfolio{
+        margin-top: 370px;
     }
 }
 /* ==================================
@@ -50,12 +68,12 @@
 ================================== */
 @media (min-width: 768px) and (max-width: 991px){
 
-    /* Header Medium Part */
+    /* Header Medium */
     header address a{
         font-size: 13px;
     }
 
-    /* Banner Medium Part */
+    /* Banner Medium */
     #banner .banner-item{
         padding: 100px 0;
     }
@@ -63,7 +81,7 @@
         padding: 0 135px;
     }
 
-    /* Service Medium Part */
+    /* Service Medium */
     .section-head p{
         padding: 0 160px;
     }
@@ -71,7 +89,7 @@
         text-align: justify;
     }
 
-    /* About Medium Part */
+    /* About Medium */
     #about .bg-image{
         width: 28%;
     }
@@ -125,7 +143,7 @@
         right: 2%;
     }
 
-    /* Brand Medium Part */
+    /* Brand Medium */
     #brand img{
         transform: scale(0.65);
         -webkit-transform: scale(0.65);
@@ -178,7 +196,7 @@
         height: calc(100% + 10px);
     }
 
-    /* Footer Medium Part */
+    /* Footer Medium */
     footer .footer-main{
         padding: 36px 0;
     }
