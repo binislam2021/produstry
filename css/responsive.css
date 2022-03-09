@@ -10,15 +10,28 @@
     Small Device Starts
 ================================== */
 @media (min-width: 576px) and (max-width: 767px){
+
+    /* Header Part */
     header address{
         line-height: 36px;
     }
+
+    /* Navbar Part */
     nav .navbar-nav{
         background: var(--colr-35);
     }
     nav .nav-link{
         color: var(--white) !important;
         padding: 8px 170px !important;
+    }
+
+    /* Banner part */
+    #banner .banner-item{
+        padding: 90px 0;
+    }
+    #banner p{
+        padding: 0 100px;
+        text-align: justify;
     }
 }
 /* ==================================
