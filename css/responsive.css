@@ -71,15 +71,29 @@
         padding-right: 90px !important;
     }
 
-    /* Blog Part */
+    /* Blog Part Small */
     #blog .blog-slider .col-lg-4{
         padding-left: 40px;
-        transform: scale(0.75;
-        -webkit-transform: scale(0.75;
-        -moz-transform: scale(0.75;
-        -ms-transform: scale(0.75;
-        -o-transform: scale(0.75;
 }
+
+    /* Testimonial Part Small */
+    #testimonial .text-slider p{
+        padding: 0 52px !important;
+        text-align: justify;
+    }
+    #testimonial .image-slider{
+        width: 60%;
+    }
+    #testimonial .item-overlay {
+        width: 70%;
+    }
+    #testimonial .slick-slider .left{
+        left: 100px;
+    }
+    #testimonial .slick-slider .right{
+        right: 2%;
+    }
+
 }
 /* ==================================
     Small Device Ends
@@ -148,7 +162,7 @@
         padding: 0 202px !important;
     }
     #testimonial p{
-        padding: 0px 140px !important;
+        padding: 0px 142px !important;
         text-align: justify;
     }
     #testimonial .image-slider{
