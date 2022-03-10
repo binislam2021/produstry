@@ -62,6 +62,14 @@
     #portfolio .m-sm-right{
         margin-left: 36px;
     }
+
+    /* Funfact Small */
+    #funfact .fun-bg{
+        height: 200px;
+    }
+    #funfact .pr-sm{
+        padding-right: 90px !important;
+    }
 }
 /* ==================================
     Small Device Ends
