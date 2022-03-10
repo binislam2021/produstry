@@ -57,7 +57,10 @@
 
     /* Portfolio Small */
     #portfolio{
-        margin-top: 370px;
+        margin-top: 430px;
+    }
+    #portfolio .m-sm-right{
+        margin-left: 36px;
     }
 }
 /* ==================================
