@@ -37,11 +37,21 @@ $(document).ready(function(){
     $('.blog-slider').slick({
         slidesToShow: 3,
         centerMode: true,
-        // autoplay: true,
+        autoplay: true,
         pauseOnHover: false,
         centerPadding: '0px',
         prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
         nextArrow: '<i class="fa-solid fa-chevron-right right"></i>',
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+              }
+            },
+        ]
     });
 
     // Slick Slider on the Testimonial

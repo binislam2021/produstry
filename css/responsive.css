@@ -70,6 +70,16 @@
     #funfact .pr-sm{
         padding-right: 90px !important;
     }
+
+    /* Blog Part */
+    #blog .blog-slider .col-lg-4{
+        padding-left: 40px;
+        transform: scale(0.75;
+        -webkit-transform: scale(0.75;
+        -moz-transform: scale(0.75;
+        -ms-transform: scale(0.75;
+        -o-transform: scale(0.75;
+}
 }
 /* ==================================
     Small Device Ends
