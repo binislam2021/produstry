@@ -82,6 +82,16 @@ $(document).ready(function(){
         centerPadding: '0px',
         prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
         nextArrow: '<i class="fa-solid fa-chevron-right right"></i>',
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                // arrows: false,
+              }
+            },
+        ]
     });
 
     // Map-popup in Footer Main using VenoBox

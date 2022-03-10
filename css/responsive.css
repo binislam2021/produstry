@@ -94,6 +94,59 @@
         right: 2%;
     }
 
+    /* Brand Part Small */
+    #brand img{
+        transform: scale(0.75);
+        -webkit-transform: scale(0.75);
+        -moz-transform: scale(0.75);
+        -ms-transform: scale(0.75);
+        -o-transform: scale(0.75);
+}
+    #brand .slick-center{
+        transform: scale(0.85);
+        -webkit-transform: scale(0.85);
+        -moz-transform: scale(0.85);
+        -ms-transform: scale(0.85);
+        -o-transform: scale(0.85);
+}
+    #brand .slick-slider .right{
+        font-size: 24px;
+        right: -3%;
+        top: 15%;
+        width: 30px;
+        height: 30px;
+        line-height: 28px;
+    }
+    #brand .slick-slider .right:hover::before{
+        width: calc(100% + 10px);
+    }
+    #brand .slick-slider .right:hover::after{
+        height: calc(100% + 10px);
+    }
+    #brand .slick-slider .left{
+        font-size: 24px;
+        left: 55px;
+        top: -30%;
+        width: 30px;
+        height: 30px;
+        line-height: 28px;
+    }
+    #brand .slick-slider .left::before {
+        top: 87px;
+        left: -60px;
+    }
+    #brand .slick-slider .left:hover::before{
+        width: calc(100% + 10px);
+    }
+    #brand .slick-slider .left::after {
+        height: 0;
+        top: 288%;
+        right: 200%;
+    }
+    #brand .slick-slider .left:hover::after{
+        height: calc(100% + 10px);
+    }
+
 }
 /* ==================================
     Small Device Ends
