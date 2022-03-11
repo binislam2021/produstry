@@ -2,6 +2,22 @@
     Extra Samll Device Starts
 ================================== */
 @media (max-width: 575px){
+
+    /* Header Extra Small */
+    header address{
+        line-height: 35px;
+        text-align: center;
+    }
+    header .welcome{
+        transform: scale(.8) skew(-35deg);
+        -webkit-transform: scale(.8) skew(-35deg);
+        -moz-transform: scale(.8) skew(-35deg);
+        -ms-transform: scale(.8) skew(-35deg);
+        -o-transform: scale(.8) skew(-35deg);
+    }
+    header ul{
+        padding-right: 20px;
+    }
 }
 /* ==================================
     Extra Samll Device Ends

@@ -133,7 +133,7 @@ header .welcome{
     -o-transform: skewX(-35deg);
 }
 header .welcome h6{
-    line-height: 40px;
+    line-height: 41px;
     transform: skewX(35deg);
     -webkit-transform: skewX(35deg);
     -moz-transform: skewX(35deg);
