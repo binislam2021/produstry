@@ -17,6 +17,9 @@
     }
 
     /* Navbar Small */
+    nav .navbar-toggler:hover{
+        color: var(--brand);
+    }
     nav .navbar-nav{
         background: var(--colr-35);
     }
@@ -145,6 +148,17 @@
     }
     #brand .slick-slider .left:hover::after{
         height: calc(100% + 10px);
+    }
+
+    /* Footer Main Small */
+    footer .footer-main{
+        padding: 24px 0 !important;
+    }
+    footer .link-part ul{
+        padding-left: 145px !important;
+    }
+    footer .image-part{
+        padding-left: 100px !important;
     }
 
 }
