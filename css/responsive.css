@@ -37,6 +37,11 @@
     #banner{
         display: none;
     }
+
+    /* Service Extra Small */
+    #service .section-head p{
+        padding: 0;
+    }
 }
 /* ==================================
     Extra Samll Device Ends
