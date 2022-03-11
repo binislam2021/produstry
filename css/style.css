@@ -229,6 +229,12 @@ header li i{
 /* ===============================================
         Navbar Starts
 ================================================= */
+nav .navbar-toggler:focus{
+    box-shadow: none;
+}
+nav .navbar-toggler:hover{
+    color: var(--brand);
+}
 nav .nav-item{
     line-height: 36px;
     transition: all linear 0.4s;

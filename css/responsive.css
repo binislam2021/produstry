@@ -18,6 +18,25 @@
     header ul{
         padding-right: 20px;
     }
+
+    /* Navbar Extra Small */
+    nav .navbar-nav{
+        background: var(--colr-35);
+        padding: 4px 0;
+        margin: 30px 0;
+    }
+    nav .navbar-nav li:last-of-type{
+        display: none;
+    }
+    nav .nav-link{
+        color: var(--white) !important;
+        padding: 5px 70px !important;
+    }
+
+    /* Banner Extra Small */
+    #banner{
+        display: none;
+    }
 }
 /* ==================================
     Extra Samll Device Ends
@@ -33,9 +52,6 @@
     }
 
     /* Navbar Small */
-    nav .navbar-toggler:hover{
-        color: var(--brand);
-    }
     nav .navbar-nav{
         background: var(--colr-35);
     }
