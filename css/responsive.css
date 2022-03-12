@@ -116,7 +116,25 @@
     }
 
     /* Blog Extra Small */
-    
+    #blog .h3{
+        padding: 48px 0 6px 0 !important;
+    }
+    #blog .section-head p{
+        padding: 0;
+        margin: 0;
+    }
+    #blog .card-title{
+        padding: 0 15px;
+    }
+    #blog .card-text{
+        text-align: justify !important;
+    }
+    #blog .d-md-none{
+        display: none;
+    }
+    #blog .btn{
+        display: block;
+    }
 }
 /* ==================================
     Extra Samll Device Ends
