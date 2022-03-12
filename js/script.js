@@ -61,6 +61,14 @@ $(document).ready(function(){
         asNavFor: '.image-slider',
         prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
         nextArrow: '<i class="fa-solid fa-chevron-right right"></i>',
+        responsive: [
+            {
+              breakpoint: 576,
+              settings: {
+                arrows: false,
+              }
+            },
+        ]
     });
 
     $('.image-slider').slick({

@@ -135,6 +135,29 @@
     #blog .btn{
         display: block;
     }
+
+    /* Testimonial Extra Small */
+    #testimonial .h3{
+        padding: 48px 0 6px 0 !important;
+    }
+    #testimonial .section-head p{
+        padding: 0;
+        margin: 0;
+    }
+    #testimonial .text-slider{
+        padding-top: 20px !important;
+    }
+    #testimonial .text-slider p{
+        padding: 0;
+        text-align: justify;
+    }
+    #testimonial .image-slider{
+        width: 80%;
+        padding-bottom: 20px !important;
+    }
+    #testimonial .item-overlay{
+        width: 90%;
+    }
 }
 /* ==================================
     Extra Samll Device Ends
