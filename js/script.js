@@ -96,7 +96,13 @@ $(document).ready(function(){
               settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
-                // arrows: false,
+              }
+            },
+            {
+              breakpoint: 756,
+              settings: {
+                slidesToShow: 1,
+                  arrows: false,
               }
             },
         ]

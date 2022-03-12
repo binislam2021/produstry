@@ -158,6 +158,18 @@
     #testimonial .item-overlay{
         width: 90%;
     }
+
+    /* Brand Extra Small */
+    #brand{
+        margin: 24px 0;
+    }
+    #brand img{
+        transform: scale(0.7) !important;
+        -webkit-transform: scale(0.7) !important;
+        -moz-transform: scale(0.7) !important;
+        -ms-transform: scale(0.7) !important;
+        -o-transform: scale(0.7) !important;
+}
 }
 /* ==================================
     Extra Samll Device Ends
