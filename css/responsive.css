@@ -169,7 +169,59 @@
         -moz-transform: scale(0.7) !important;
         -ms-transform: scale(0.7) !important;
         -o-transform: scale(0.7) !important;
-}
+    }
+
+    /* Footer Extra Small */
+    footer .footer-main{
+        padding: 24px 0;
+    }
+    footer .logo-part{
+        text-align: center;
+    }
+    footer .footer-main p{
+        text-align: justify;
+        padding: 8px 0 16px 18px !important;
+    }
+    footer .footer-main ul{
+        justify-content: space-around !important;
+    }
+
+    footer .contact-part{
+        padding-top: 48px;
+    }
+    footer h5{
+        padding-left: 18px;
+    }
+    footer .contact-part ul{
+        padding-left: 18px !important;
+    }
+
+    footer .link-part{
+        padding-top: 48px;
+    }
+    footer .link-part ul{
+        padding-left: 18px !important;
+    }
+
+    footer .ltst-news-part{
+        padding-top: 48px;
+    }
+    footer .ltst-news-part .text-part{
+        padding-left: 8px !important;
+    }
+    footer .ltst-news-part a{
+        font-size: 13px;
+    }
+    footer .ltst-news-part .date{
+        font-size: 13px;
+    }
+    footer .ltst-news-part .xsm-none{
+        display: none !important;
+    }
+    footer .footer-copyright p{
+        font-size: 13px;
+        text-align: left !important;
+    }
 }
 /* ==================================
     Extra Samll Device Ends
