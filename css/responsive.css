@@ -86,6 +86,19 @@
     #portfolio{
         margin-top: 630px;
     }
+    #portfolio .section-head .h3{
+        padding: 0 0 8px 0 !important;
+    }
+    #portfolio .section-head p{
+        padding: 0 0 16px 0 !important;
+    }
+    #portfolio .port-image{
+        left: 14px;
+        margin-bottom: 24px;
+    }
+    #portfolio .xsm-mb-0{
+        margin-bottom: 0;
+    }
 }
 /* ==================================
     Extra Samll Device Ends
