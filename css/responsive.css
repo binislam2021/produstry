@@ -86,6 +86,9 @@
     #portfolio{
         margin-top: 630px;
     }
+    #portfolio .container{
+        padding-bottom: 20px !important;
+    }
     #portfolio .section-head .h3{
         padding: 0 0 8px 0 !important;
     }
@@ -99,6 +102,21 @@
     #portfolio .xsm-mb-0{
         margin-bottom: 0;
     }
+
+    /* Funfact Extra Small */
+    #funfact .fun-bg{
+        height: 200px;
+    }
+    #funfact .xsm{
+        width: 50%;
+        padding-top: 20px;
+    }
+    #funfact .xsm-ps{
+        padding-left: 36px;;
+    }
+
+    /* Blog Extra Small */
+    
 }
 /* ==================================
     Extra Samll Device Ends
