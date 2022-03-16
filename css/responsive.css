@@ -80,8 +80,8 @@
     }
 
     /* Portfolio Extra Small */
-    #portfolio{
-        margin-top: 630px;
+    #portfolio .container{
+        margin-top: 16px !important;
     }
     #portfolio .container{
         padding-bottom: 20px !important;
@@ -113,6 +113,9 @@
     }
 
     /* Blog Extra Small */
+    #blog .container {
+        margin-bottom: -45px !important;
+    }
     #blog .h3{
         padding: 48px 0 6px 0 !important;
     }
@@ -317,11 +320,11 @@
 
     /* Brand Part Small */
     #brand img{
-        transform: scale(0.75);
-        -webkit-transform: scale(0.75);
-        -moz-transform: scale(0.75);
-        -ms-transform: scale(0.75);
-        -o-transform: scale(0.75);
+        transform: scale(0.75) !important;
+        -webkit-transform: scale(0.75) !important;
+        -moz-transform: scale(0.75) !important;
+        -ms-transform: scale(0.75) !important;
+        -o-transform: scale(0.75) !important;
 }
     #brand .slick-center{
         transform: scale(0.85);
