@@ -47,23 +47,20 @@
     }
 
     /* About Extra Small */
-    #about .bg-image{
-        border-radius: 0;
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
-        -ms-border-radius: 0;
-        -o-border-radius: 0;
-    }
-    #about .bg-image::after{
-        border-radius: 0;
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
-        -ms-border-radius: 0;
-        -o-border-radius: 0;
+    #about .about-overlay img {
+        left: 35%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
     }
     #about h3{
-        padding: 24px 0 10px 0;
+        padding: 24px 0 0 0;
         text-align: center;
+    }
+    #about .nav-link {
+        padding: 10px 44px 0 44px;
     }
     #about ul{
         padding-left: 50%;
@@ -220,7 +217,6 @@
     }
     footer .footer-copyright p{
         font-size: 13px;
-        text-align: left !important;
     }
 }
 /* ==================================
@@ -263,21 +259,26 @@
     }
 
     /* About Small */
-    #about .bg-image, #about .bg-image::after{
-        border-radius: 0;
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
-        -ms-border-radius: 0;
-        -o-border-radius: 0;
+    #about .about-overlay img {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
     }
     #about p{
         text-align: justify;
-        padding-left: 55px;
+        padding: 0 30px;
+    }
+    #about .btn{
+        display: block;
+        margin: 20px 30px;
     }
 
     /* Portfolio Small */
     #portfolio{
-        margin-top: 430px;
+        /* margin-top: 30px; */
     }
     #portfolio .m-sm-right{
         margin-left: 36px;
@@ -377,7 +378,6 @@
     footer .image-part{
         padding-left: 100px !important;
     }
-
 }
 /* ==================================
     Small Device Ends
@@ -409,16 +409,20 @@
     }
 
     /* About Medium */
-    #about .bg-image{
-        width: 28%;
+    #about .about-overlay img {
+        left: -50%;
     }
     #about p{
         text-align: justify;
-        padding-right: 0 !important;
+        padding: 0 50px;
     }
-    #about img{
-        width: 100%;
-        margin-left: 60px;
+    #about .btn{
+        margin-left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
     }
 
     /* Funfact Medium */
@@ -519,24 +523,48 @@
     footer .footer-main{
         padding: 36px 0;
     }
-}
+    }
 /* ==================================
     Medium Device Ends
 =================================*/
 /* ==================================
-    Small Device Starts
+    XL Device Starts
 ================================== */
-@media (min-width: 576px) and (max-width: 1199px){
+@media (min-width: 1200px) and (max-width: 1399px){
+
+    /* About Extra Large */
+    #about .bg-image {
+        border-top-right-radius: 15px;
+    }
+    #about .about-overlay {
+        border-top-right-radius: 15px;
+    }
+    #about .about-overlay img {
+        right: -40%;
+    }
 }
 /* ==================================
-    Small Device Ends
+    XL Device Ends
 =================================*/
+/* ==================================
+    XXL Device Starts
+================================== */
+@media (min-width: 1400px){
 
-    
-
-
-
-
+    /* About Extra Large */
+    #about .bg-image {
+        border-top-right-radius: 0px;
+    }
+    #about .about-overlay {
+        border-top-right-radius: 0px;
+    }
+    #about .about-overlay img {
+        right: -38%;
+    }
+}
+/* ==================================
+    XXL Device Ends
+=================================*/
 
 /* ==================================
      Device Starts

@@ -105,6 +105,9 @@ img{
 .bg-over60{
     background: var(--over-60);
 }
+.bg-over70{
+    background: var(--over-70);
+}
 .bg-over80{
     background: var(--over-80);
 }
@@ -590,7 +593,63 @@ nav .nav-item i{
 /* ===============================================
         About Starts
 ================================================= */
-#about .bg-image{
+#about .bg-image {
+    height: 355px;
+    border-top-right-radius: 13px;
+}
+#about .about-overlay {
+    border-top-right-radius: 13px;
+}
+#about .about-overlay img{
+    height: 100%;
+    right: -45%;
+}
+#about .nav-link{
+    border: none;
+    border-bottom: 5px solid var(--colr-d);
+    padding: 0 44px 8px 44px;
+}
+#about .nav-link.active{
+    background: none;
+    border-bottom: 5px solid var(--brand);
+}
+#about p{
+    padding-right: 120px !important;
+}
+#about .btn{
+    border: 2px solid var(--brand);
+}
+#about .btn:hover{
+    background: var(--brand);
+    border-color: var(--brand) !important;
+    color: var(--colr-35);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #about .bg-image{
     height: 392px;
     background: url(../images/about-bg.jpg) no-repeat center / cover;
     border-top-right-radius: 10%;
@@ -626,7 +685,7 @@ nav .nav-item i{
     background: var(--brand);
     border-color: var(--brand) !important;
     color: var(--colr-35);
-}
+} */
 /* ===============================================
         About Ends
 ================================================= */
