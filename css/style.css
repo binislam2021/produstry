@@ -380,7 +380,7 @@ nav .nav-item i{
     color: var(--colr-35) !important;
 }
 #banner p{
-    padding-right: 555px;
+    padding-right: 330px;
     line-height: 24px;
 }
 #banner .slick-slider{
@@ -538,7 +538,7 @@ nav .nav-item i{
         Service Starts
 ================================================= */
 .section-head p{
-    padding: 0 324px;
+    padding: 0 230px;
 }
 #service .item-common{
     width: 150px;
@@ -626,29 +626,6 @@ nav .nav-item i{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* #about .bg-image{
     height: 392px;
     background: url(../images/about-bg.jpg) no-repeat center / cover;
@@ -694,6 +671,13 @@ nav .nav-item i{
 /* ===============================================
         Portfolio Starts
 ================================================= */
+#portfolio .portfolio-item {
+    transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    -o-transform: scale(0.85);
+}
 #portfolio .port-image{
     width: 270px;
     height: 350px;

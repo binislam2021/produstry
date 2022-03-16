@@ -10,7 +10,7 @@ $(document).ready(function(){
 
      // Slick Slider on the Banner
     $('.banner-slider').slick({
-        autoplay: true,
+        // autoplay: true,
         pauseOnHover: false,
         prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
         nextArrow: '<i class="fa-solid fa-chevron-right right"></i>'
