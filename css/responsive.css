@@ -542,6 +542,25 @@
     #about .about-overlay img {
         right: -40%;
     }
+
+    /* Testimonial Extra Large */
+    #testimonial .text-slider p {
+        padding: 0 245px ;
+    }
+    #testimonial .item-overlay {
+        width: 66% !important;
+    }
+
+    /* Footer Extra Large */
+    #footer .contact-part a {
+        font-size: 14px;
+    }
+    #footer .ltst-news-part .text-d {
+        font-size: 14px;
+    }
+    #footer .ltst-news-part li {
+        font-size: 13px;
+    }
 }
 /* ==================================
     XL Device Ends
@@ -551,7 +570,13 @@
 ================================== */
 @media (min-width: 1400px){
 
-    /* About Extra Large */
+    /* Banner Extra Extra Large */
+    #banner p {
+        padding-right: 605px;
+        text-align: justify;
+    }
+
+    /* About Extra Extra Large */
     #about .bg-image {
         border-top-right-radius: 0px;
     }
@@ -560,6 +585,29 @@
     }
     #about .about-overlay img {
         right: -38%;
+    }
+
+    /* Testimonial Extra Extra Large */
+    #testimonial .item-overlay {
+        width: 56% !important;
+    }
+    #testimonial p {
+        padding: 0 248px !important;
+        text-align: justify;
+    }
+    #testimonial .rating-details {
+        padding-right: 58px;
+    }
+
+    /* Footer Extra Extra Large  */
+    #footer .contact-part a {
+        font-size: 14px;
+    }
+    #footer .ltst-news-part .text-d {
+        font-size: 14px;
+    }
+    #footer .ltst-news-part li {
+        font-size: 13px;
     }
 }
 /* ==================================
