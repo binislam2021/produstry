@@ -3,14 +3,13 @@ $(document).ready(function(){
 
     // 
     $('nav .nav-item a').on('click',function(){
-        // $(this).addClass('active').siblings().removeClass('active');
         $('nav .nav-item a').removeClass('active');
         $(this).addClass('active');
     });
 
      // Slick Slider on the Banner
     $('.banner-slider').slick({
-        // autoplay: true,
+        autoplay: true,
         pauseOnHover: false,
         prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
         nextArrow: '<i class="fa-solid fa-chevron-right right"></i>'
@@ -37,26 +36,26 @@ $(document).ready(function(){
     $('.blog-slider').slick({
         slidesToShow: 3,
         centerMode: true,
-        // autoplay: true,
+        autoplay: true,
         pauseOnHover: false,
         centerPadding: '0px',
         prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
         nextArrow: '<i class="fa-solid fa-chevron-right right"></i>',
         responsive: [
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                arrows: false,
-              }
-            },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false,
+            }
+          },
         ]
     });
 
     // Slick Slider on the Testimonial
     $('.text-slider').slick({
-        // autoplay: true,
+        autoplay: true,
         pauseOnHover: false,
         asNavFor: '.image-slider',
         prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
@@ -76,7 +75,7 @@ $(document).ready(function(){
         arrows: false,
         centerMode: true,
         centerPadding: '0px',
-        // autoplay: true,
+        autoplay: true,
         pauseOnHover: false,
         asNavFor: '.text-slider',
     });
@@ -91,20 +90,20 @@ $(document).ready(function(){
         prevArrow: '<i class="fa-solid fa-chevron-left left"></i>',
         nextArrow: '<i class="fa-solid fa-chevron-right right"></i>',
         responsive: [
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-              }
-            },
-            {
-              breakpoint: 576,
-              settings: {
-                slidesToShow: 1,
-                  arrows: false,
-              }
-            },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+                arrows: false,
+            }
+          },
         ]
     });
 

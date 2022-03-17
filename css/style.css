@@ -185,8 +185,7 @@ header li:hover::after{
     height: 31px;
 }
 header li a{
-    line-height: 40px;;
-    
+    line-height: 40px;;  
 }
 header li a:hover{
     color: var(--link-hov);
@@ -627,50 +626,9 @@ nav .nav-item i{
     border-color: var(--brand) !important;
     color: var(--colr-35);
 }
-
-
-/* #about .bg-image{
-    height: 392px;
-    background: url(../images/about-bg.jpg) no-repeat center / cover;
-    border-top-right-radius: 10%;
-}
-#about .bg-image::after{
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    inset: 0;
-    background: var(--over-70);
-    border-top-right-radius: 10%;
-}
-#about .container img{
-    height: 392px;
-}
-#about .nav-link{
-    border: none;
-    border-bottom: 5px solid var(--colr-d);
-    padding: 0 44px 8px 44px;
-}
-#about .nav-link.active{
-    background: none;
-    border-bottom: 5px solid var(--brand);
-}
-#about p{
-    padding-right: 65px !important;
-}
-#about .btn{
-    border: 2px solid var(--brand);
-}
-#about .btn:hover{
-    background: var(--brand);
-    border-color: var(--brand) !important;
-    color: var(--colr-35);
-} */
 /* ===============================================
         About Ends
 ================================================= */
-
-
 /* ===============================================
         Portfolio Starts
 ================================================= */
@@ -972,6 +930,7 @@ nav .nav-item i{
     inset: 0;
     z-index: -1;
 }
+
 /* Text Slider */
 #testimonial .text-slider p{
     padding: 0 160px;
@@ -1154,7 +1113,7 @@ nav .nav-item i{
     height: calc(100% + 20px);
 }
 
-/* Slicker Center CSS */
+/* Slick Center CSS */
 #testimonial .slick-center img{
     padding: 5px;
     border: 1px solid var(--brand);

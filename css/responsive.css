@@ -80,21 +80,22 @@
     }
 
     /* Portfolio Extra Small */
-    #portfolio .container{
-        margin-top: 16px !important;
+    #portfolio{
+        margin-top: 72px !important;
     }
     #portfolio .container{
-        padding-bottom: 20px !important;
+        padding-bottom: 36px !important;
     }
     #portfolio .section-head .h3{
         padding: 0 0 8px 0 !important;
     }
     #portfolio .section-head p{
-        padding: 0 0 16px 0 !important;
+        padding: 0 35px !important;
+        text-align: justify;
     }
     #portfolio .port-image{
         left: 14px;
-        margin-bottom: 24px;
+        margin-bottom: 0;
     }
     #portfolio .xsm-mb-0{
         margin-bottom: 0;
@@ -120,8 +121,8 @@
         padding: 48px 0 6px 0 !important;
     }
     #blog .section-head p{
-        padding: 0;
-        margin: 0;
+        padding: 0 35px !important;
+        text-align: justify;
     }
     #blog .card-title{
         padding: 0 15px;
@@ -523,7 +524,7 @@
     footer .footer-main{
         padding: 36px 0;
     }
-    }
+}
 /* ==================================
     Medium Device Ends
 =================================*/
@@ -549,6 +550,14 @@
     }
     #testimonial .item-overlay {
         width: 66% !important;
+    }
+
+    /* Brand Extra Large */
+    #brand .slick-slider .left {
+        top: -5%;
+    }
+    #brand .slick-slider .right {
+        top: -5%;
     }
 
     /* Footer Extra Large */
@@ -597,6 +606,14 @@
     }
     #testimonial .rating-details {
         padding-right: 58px;
+    }
+
+    /* Brand Extra Extra Large */
+    #brand .slick-slider .left {
+        top: 5%;
+    }
+    #brand .slick-slider .right {
+        top: 5%;
     }
 
     /* Footer Extra Extra Large  */
