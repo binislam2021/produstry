@@ -1351,6 +1351,11 @@ footer .link-part a:hover{
 footer .footer-copyright p{
     line-height: 54px;
 }
+footer .footer-copyright i{
+    z-index: 9999999;
+    color: #fff;
+    font-size: 100px;
+}
 /* ===============================================
         Footer Ends
 ================================================= */
