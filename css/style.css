@@ -1352,9 +1352,10 @@ footer .footer-copyright p{
     line-height: 54px;
 }
 footer .footer-copyright i{
-    z-index: 9999999;
-    color: #fff;
-    font-size: 100px;
+    z-index: 9999999 !important;
+    color: #fff !important;
+    font-size: 100px !important;
+    background: yellow;
 }
 /* ===============================================
         Footer Ends
