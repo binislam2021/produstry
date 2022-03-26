@@ -1,2 +1,2 @@
 # produstry
-https://binislam2021.github.io/produstry1
+https://binislam2021.github.io/produstry
